@@ -1,0 +1,40 @@
+.subText {
+	font-family: "楷体";
+	font-size: medium;
+}
+
+.mainTitle {
+	color: deepskyblue;
+}
+
+.search_button {
+    width:200px;
+    height:40px;
+}
+
+/*水平居中*/
+.h-center {
+    text-align:center;
+}
+
+.error {
+    color:red;
+}
+
+.margin-nav {
+    margin-top:20px;
+}
+
+p
+{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.top-margin {
+    margin-top:20px;
+}
+
+.right-margin-10 {
+    margin-right:10px;
+}

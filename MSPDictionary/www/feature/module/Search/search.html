@@ -1,0 +1,39 @@
+<ion-view view-title="搜索">
+    <ion-content class="has-header has-footer">
+        <form name="myForm">
+        <div class="list list-inset h-center">
+            <div class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="text" placeholder="搜索"  ng-model="vm.searchText">
+                <button class="button button-clear icon ion-ios-close-empty right-margin-10"
+                    ng-click="vm.clearInput()" ng-show="vm.bClear"></button>
+            </div>
+
+            <p class="error top-margin" ng-show="NoInput">请先输入一个英文单词</p>
+            <button class="search_button top-margin" ng-click="vm.searchWord()">搜索</button>
+            </br>
+            </br>
+            <ion-spinner icon="bubbles" class="spinner-balanced" ng-show="vm.showProgress"></ion-spinner>
+            <p ng-show="vm.bSearchFail">没有查询结果</p>
+
+        </div>
+        </form>
+
+        <div ng-show="vm.hasResult">
+            <p>英音:{{vm.ukphonetic}}</p>
+            <p>美音:{{vm.usphonetic}}</p>
+            <p>{{vm.searchResult}}</p>
+        </div>
+        
+
+    </ion-content>
+</ion-view>
+	
+	 
+    
+
+
+	
+
+
+

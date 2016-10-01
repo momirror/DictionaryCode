@@ -1,0 +1,12 @@
+	<ion-view view-title="单词本">
+		<ion-content class="has-header">
+			<ion-list>
+				<ion-item  class="item-icon-right" collection-repeat="word in words" ui-sref="list.wordDetail({index:$index})">
+					{{word.word}}
+					<!--<ion-option-button class="button-calm icon ion-edit"></ion-option-button>-->
+					<i class="icon ion-ios-arrow-right"></i>
+				</ion-item>
+			</ion-list>
+		</ion-content>
+	</ion-view>
+	
