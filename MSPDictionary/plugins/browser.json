@@ -11,7 +11,7 @@
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
         "DictionaryPlugin": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "com.msp.dictionary"
         }
     },
     "dependent_plugins": {}
