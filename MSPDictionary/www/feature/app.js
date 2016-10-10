@@ -134,8 +134,8 @@ myApp.config(function($stateProvider,$urlRouterProvider)
             var exec = cordova.require('cordova/exec');
             exec(function(data){
                  defer.resolve(data);
-                 },function(){
-                 alert("error");
+                 },function(err){
+                 alert(err);
                  },"DataPlugin","getAllData",[]);
 
 
