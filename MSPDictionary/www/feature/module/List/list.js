@@ -26,7 +26,7 @@ myApp.config(function($stateProvider,$urlRouterProvider) {
             exec(function(data){
                 defer.resolve(data);
             },function(){
-                alert("error");
+                alert("getAllData error");
             },"DataPlugin","getAllData",[]);
 
             return defer.promise;

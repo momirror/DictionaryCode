@@ -16,10 +16,21 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+var exec = cordova.require('cordova/exec');
+
 var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+//        this.parse("test");
+    },
+    
+    
+    
+    parse:function(jsonObj)
+    {
+        exec(null,null,"DataPlugin","parseData",[jsonObj]);
     },
     // Bind Event Listeners
     //
@@ -38,6 +49,10 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
+        if(!parentElement){
+            return;
+        }
+
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
 
