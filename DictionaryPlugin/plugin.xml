@@ -6,6 +6,9 @@
         <clobbers target="cordova.plugins.DictionaryPlugin"/>
     </js-module>
     <platform name="ios">
+        <hook type="before_compile" src="hooks/ios/before_compile/copy_project_config.js" />
+        <!--<hook type="before_plugin_rm" src="hooks/ios/before_plugin_rm/rm_src_plugin.js" />-->
+
         <config-file parent="/*" target="config.xml">
             <feature name="DictionaryPlugin">
                 <param name="ios-package" value="DictionaryPlugin"/>
@@ -13,8 +16,14 @@
             <feature name="Storage">
                 <param name="ios-package" value="MSPStoragePlugin" />
             </feature>
+            <feature name="DataPlugin">
+                <param name="ios-package" value="DataPlugin" />
+            </feature>
         </config-file>
         <source-file src="src/ios/DictionaryPlugin.m"/>
+
+        <header-file src="src/ios/DataPlugin.h"/>
+        <source-file src="src/ios/DataPlugin.m"/>
     </platform>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
