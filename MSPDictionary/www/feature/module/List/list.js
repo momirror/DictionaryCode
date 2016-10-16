@@ -31,4 +31,5 @@ myApp.config(function($stateProvider,$urlRouterProvider) {
 
             return defer.promise;
         }
-    });
+    }
+    );

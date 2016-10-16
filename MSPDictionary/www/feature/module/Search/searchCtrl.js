@@ -5,12 +5,14 @@ SearchController.inject = [
     '$scope',
     '$http',
     'parseData',
-    'getAllWord'
+    'getAllWord',
+    'AppInfoSvc'
 
 ];
-function SearchController($rootScope, $scope, $http, parseData,getAllWord) {
+function SearchController($rootScope, $scope, $http, parseData,getAllWord,AppInfoSvc) {
 
     var vm = this;
+    //console.log(AppInfoSvc.platform());
 
     vm.clearInput = function () {
         vm.searchText = "";
