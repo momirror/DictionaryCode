@@ -1,4 +1,4 @@
-var myApp = angular.module("dicApp",['ionic']);
+var myApp = angular.module("dicApp",['ionic','dicApp.service']);
 
 myApp.config(function($stateProvider,$urlRouterProvider) {
 
@@ -8,7 +8,6 @@ myApp.config(function($stateProvider,$urlRouterProvider) {
             templateUrl: 'feature/module/tabs/tabs.html',
             abstract: true,
             controller:'TabsController'
-
         });
 });
 

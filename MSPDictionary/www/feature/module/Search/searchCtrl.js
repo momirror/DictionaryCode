@@ -12,7 +12,7 @@ SearchController.inject = [
 function SearchController($rootScope, $scope, $http, parseData,getAllWord,AppInfoSvc) {
 
     var vm = this;
-    //console.log(AppInfoSvc.platform());
+    console.log(AppInfoSvc.platform());
 
     vm.clearInput = function () {
         vm.searchText = "";
