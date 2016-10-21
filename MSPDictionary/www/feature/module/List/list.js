@@ -15,21 +15,4 @@ myApp.config(function($stateProvider,$urlRouterProvider) {
                 }
             }
         });
-})
-    .service("getAllWord",function($q)
-    {
-        this.getAllData=function()
-        {
-            var defer = $q.defer();
-
-            var exec = cordova.require('cordova/exec');
-            exec(function(data){
-                defer.resolve(data);
-            },function(){
-                alert("getAllData error");
-            },"DataPlugin","getAllData",[]);
-
-            return defer.promise;
-        }
-    }
-    );
+});

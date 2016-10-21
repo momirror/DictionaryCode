@@ -1,13 +1,17 @@
 /**
  * Created by msp on 16/10/16.
+ * get platform info
  */
 
-var app = angular.module('dicApp.service',[]);
-app.service('AppInfoSvc',function() {
+var serviceModule = angular.module('dicApp.service');
+serviceModule.service('AppInfoSvc',AppInfoSvc);
+
+function AppInfoSvc() {
     return {
         platform:getPlatform,
         isIOS:isIOS,
         isAndroid:isAndroid,
+        isBrowser:isBrowser,
     }
 
     function  getPlatform(){
@@ -21,6 +25,10 @@ app.service('AppInfoSvc',function() {
     function  isAndroid(){
         return  $window.ionic && $window.ionic.Platform.isAndroid();
     }
-});
+
+    function isBrowser(){
+        return !isIOS && !isAndroid();
+    }
+};
 
 

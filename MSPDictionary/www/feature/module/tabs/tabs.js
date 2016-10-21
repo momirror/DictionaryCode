@@ -1,4 +1,4 @@
-var myApp = angular.module("dicApp",['ionic','dicApp.service']);
+var myApp = angular.module("dicApp");
 
 myApp.config(function($stateProvider,$urlRouterProvider) {
 

@@ -7,13 +7,13 @@ angular.module('dicApp').controller('ListController', ListController);
 ListController.inject = [
     '$rootScope',
     '$scope',
-    'getAllWord',
+    'DataSvc',
 ];
 
-function ListController($scope,$rootScope,getAllWord) {
+function ListController($scope,$rootScope,DataSvc) {
 
     var vm = this;
-    getAllWord.getAllData().then(function(data){
+    DataSvc.getAllData().then(function(data){
 //                                 alert(data);
        $rootScope.words = data;
     });

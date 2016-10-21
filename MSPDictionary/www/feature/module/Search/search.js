@@ -19,13 +19,5 @@ myApp.config(function($stateProvider,$urlRouterProvider) {
                 }
             }
         });
-})
-    .service("parseData",function()
-    {
-        this.parseJson=function(jsonData)
-        {
-            var exec = cordova.require('cordova/exec');
-            exec(null,null,"DataPlugin","parseData",[jsonData]);
-        }
-    });
+});
 

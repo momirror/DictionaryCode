@@ -4,12 +4,11 @@ SearchController.inject = [
     '$rootScope',
     '$scope',
     '$http',
-    'parseData',
-    'getAllWord',
+    'DataSvc',
     'AppInfoSvc'
 
 ];
-function SearchController($rootScope, $scope, $http, parseData,getAllWord,AppInfoSvc) {
+function SearchController($rootScope, $scope, $http,DataSvc,AppInfoSvc) {
 
     var vm = this;
     console.log(AppInfoSvc.platform());
@@ -40,7 +39,7 @@ function SearchController($rootScope, $scope, $http, parseData,getAllWord,AppInf
             .success(function (response) {
 
                 vm.showProgress = false;
-                parseData.parseJson(response);
+                DataSvc.parseJson(response);
 
                 
                 var basic = response.basic;
@@ -57,7 +56,7 @@ function SearchController($rootScope, $scope, $http, parseData,getAllWord,AppInf
                     vm.searchResult = basic.explains;
 
 
-                    getAllWord.getAllData().then(function (data) {
+                    DataSvc.getAllData().then(function (data) {
                         var wordDatas = data;
 
 
@@ -65,9 +64,6 @@ function SearchController($rootScope, $scope, $http, parseData,getAllWord,AppInf
                     });
 
                 };
-
-                     alert("test");
-
             })
             .error(function (e) {
                 alert('请求失败了');
@@ -82,8 +78,6 @@ function SearchController($rootScope, $scope, $http, parseData,getAllWord,AppInf
         vm.bClear = (newValue != undefined && newValue != "");
                 
     });
-
-
 };
 
 
