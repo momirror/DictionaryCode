@@ -4,13 +4,13 @@
         <div class="list list-inset h-center">
             <div class="item item-input">
                 <i class="icon ion-search placeholder-icon"></i>
-                <input type="text" placeholder="搜索"  ng-model="vm.searchText">
+                <input type="text" placeholder="输入你要查询的英语单词"  ng-model="vm.searchText">
                 <button class="button button-clear icon ion-ios-close-empty right-margin-10"
                     ng-click="vm.clearInput()" ng-show="vm.bClear"></button>
             </div>
 
             <p class="error top-margin" ng-show="NoInput">请先输入一个英文单词</p>
-            <button class="search_button top-margin" ng-click="vm.searchWord()">搜索</button>
+            <button class="search_button top-margin" ng-click="vm.searchWord()">查询</button>
             </br>
             </br>
             <ion-spinner icon="bubbles" class="spinner-balanced" ng-show="vm.showProgress"></ion-spinner>

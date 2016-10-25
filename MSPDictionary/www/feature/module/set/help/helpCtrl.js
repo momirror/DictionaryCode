@@ -6,5 +6,9 @@ HelpController.inject = [
 ];
 
 function HelpController($rootScope,$state,$scope) {
+ $rootScope.hideTabs = true;
 
+    $scope.$on('$destroy',function(){
+        $rootScope.hideTabs = false;
+    });
 }
