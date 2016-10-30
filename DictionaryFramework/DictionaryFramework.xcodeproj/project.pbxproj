@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		720119A71DC59D8C0006A03A /* DictionaryFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7201199D1DC59D8C0006A03A /* DictionaryFramework.framework */; };
+		720119AC1DC59D8C0006A03A /* DictionaryFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 720119AB1DC59D8C0006A03A /* DictionaryFrameworkTests.m */; };
+		720119AE1DC59D8C0006A03A /* DictionaryFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 720119A01DC59D8C0006A03A /* DictionaryFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720119B81DC59E960006A03A /* DataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 720119B71DC59E960006A03A /* DataTest.m */; };
+		7228C03D1DC6BE6C007F56CB /* Word.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7228C03B1DC6BE6C007F56CB /* Word.xcdatamodeld */; };
+		7228C03E1DC6BE9D007F56CB /* DataManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC3001DC5AE3F00229796 /* DataManagement.m */; };
+		7228C03F1DC6BEAE007F56CB /* Word.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7228C03B1DC6BE6C007F56CB /* Word.xcdatamodeld */; };
+		724CC30E1DC5AE3F00229796 /* DataManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 724CC2FF1DC5AE3F00229796 /* DataManagement.h */; };
+		724CC30F1DC5AE3F00229796 /* DataManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC3001DC5AE3F00229796 /* DataManagement.m */; };
+		724CC3111DC5AE3F00229796 /* PrintObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 724CC3011DC5AE3F00229796 /* PrintObject.h */; };
+		724CC3121DC5AE3F00229796 /* PrintObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC3021DC5AE3F00229796 /* PrintObject.m */; };
+		724CC3131DC5AE3F00229796 /* PrintObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC3021DC5AE3F00229796 /* PrintObject.m */; };
+		724CC3141DC5AE3F00229796 /* Word.h in Headers */ = {isa = PBXBuildFile; fileRef = 724CC3031DC5AE3F00229796 /* Word.h */; };
+		724CC3151DC5AE3F00229796 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC3041DC5AE3F00229796 /* Word.m */; };
+		724CC3161DC5AE3F00229796 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC3041DC5AE3F00229796 /* Word.m */; };
+		724CC3191DC5AE3F00229796 /* WordEntity+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 724CC3071DC5AE3F00229796 /* WordEntity+CoreDataProperties.h */; };
+		724CC31A1DC5AE3F00229796 /* WordEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC3081DC5AE3F00229796 /* WordEntity+CoreDataProperties.m */; };
+		724CC31B1DC5AE3F00229796 /* WordEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC3081DC5AE3F00229796 /* WordEntity+CoreDataProperties.m */; };
+		724CC31C1DC5AE3F00229796 /* WordEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 724CC3091DC5AE3F00229796 /* WordEntity.h */; };
+		724CC31D1DC5AE3F00229796 /* WordEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC30A1DC5AE3F00229796 /* WordEntity.m */; };
+		724CC31E1DC5AE3F00229796 /* WordEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC30A1DC5AE3F00229796 /* WordEntity.m */; };
+		724CC3211DC5AEC000229796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724CC3201DC5AEC000229796 /* UIKit.framework */; };
+		724CC3251DC5AF3600229796 /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = 724CC3231DC5AF3600229796 /* Global.h */; };
+		724CC3261DC5AF3600229796 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC3241DC5AF3600229796 /* Global.m */; };
+		724CC3271DC5AF3600229796 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CC3241DC5AF3600229796 /* Global.m */; };
+		729933071DC63B710083C2D1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729933061DC63B710083C2D1 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		720119A81DC59D8C0006A03A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 720119941DC59D8C0006A03A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7201199C1DC59D8C0006A03A;
+			remoteInfo = DictionaryFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7201199D1DC59D8C0006A03A /* DictionaryFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictionaryFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720119A01DC59D8C0006A03A /* DictionaryFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryFramework.h; sourceTree = "<group>"; };
+		720119A11DC59D8C0006A03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720119A61DC59D8C0006A03A /* DictionaryFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		720119AB1DC59D8C0006A03A /* DictionaryFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryFrameworkTests.m; sourceTree = "<group>"; };
+		720119AD1DC59D8C0006A03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720119B71DC59E960006A03A /* DataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTest.m; sourceTree = "<group>"; };
+		7228BF771DC6B785007F56CB /* DictionaryFrameworkTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DictionaryFrameworkTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		7228C03C1DC6BE6C007F56CB /* Word.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Word.xcdatamodel; sourceTree = "<group>"; };
+		724CC2FF1DC5AE3F00229796 /* DataManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManagement.h; sourceTree = "<group>"; };
+		724CC3001DC5AE3F00229796 /* DataManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManagement.m; sourceTree = "<group>"; };
+		724CC3011DC5AE3F00229796 /* PrintObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintObject.h; sourceTree = "<group>"; };
+		724CC3021DC5AE3F00229796 /* PrintObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintObject.m; sourceTree = "<group>"; };
+		724CC3031DC5AE3F00229796 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		724CC3041DC5AE3F00229796 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		724CC3071DC5AE3F00229796 /* WordEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WordEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		724CC3081DC5AE3F00229796 /* WordEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WordEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		724CC3091DC5AE3F00229796 /* WordEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordEntity.h; sourceTree = "<group>"; };
+		724CC30A1DC5AE3F00229796 /* WordEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordEntity.m; sourceTree = "<group>"; };
+		724CC3201DC5AEC000229796 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		724CC3231DC5AF3600229796 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		724CC3241DC5AF3600229796 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		729933061DC63B710083C2D1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		720119991DC59D8C0006A03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729933071DC63B710083C2D1 /* CoreData.framework in Frameworks */,
+				724CC3211DC5AEC000229796 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720119A31DC59D8C0006A03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720119A71DC59D8C0006A03A /* DictionaryFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		720119931DC59D8C0006A03A = {
+			isa = PBXGroup;
+			children = (
+				7228C03B1DC6BE6C007F56CB /* Word.xcdatamodeld */,
+				7201199F1DC59D8C0006A03A /* DictionaryFramework */,
+				720119AA1DC59D8C0006A03A /* DictionaryFrameworkTests */,
+				7201199E1DC59D8C0006A03A /* Products */,
+				724CC31F1DC5AEC000229796 /* Frameworks */,
+				7228BF771DC6B785007F56CB /* DictionaryFrameworkTests-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		7201199E1DC59D8C0006A03A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7201199D1DC59D8C0006A03A /* DictionaryFramework.framework */,
+				720119A61DC59D8C0006A03A /* DictionaryFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7201199F1DC59D8C0006A03A /* DictionaryFramework */ = {
+			isa = PBXGroup;
+			children = (
+				724CC3221DC5AF3600229796 /* Common */,
+				724CC2FE1DC5AE3F00229796 /* Data */,
+				720119A01DC59D8C0006A03A /* DictionaryFramework.h */,
+				720119A11DC59D8C0006A03A /* Info.plist */,
+			);
+			path = DictionaryFramework;
+			sourceTree = "<group>";
+		};
+		720119AA1DC59D8C0006A03A /* DictionaryFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				720119AB1DC59D8C0006A03A /* DictionaryFrameworkTests.m */,
+				720119AD1DC59D8C0006A03A /* Info.plist */,
+				720119B71DC59E960006A03A /* DataTest.m */,
+			);
+			path = DictionaryFrameworkTests;
+			sourceTree = "<group>";
+		};
+		724CC2FE1DC5AE3F00229796 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				724CC2FF1DC5AE3F00229796 /* DataManagement.h */,
+				724CC3001DC5AE3F00229796 /* DataManagement.m */,
+				724CC3011DC5AE3F00229796 /* PrintObject.h */,
+				724CC3021DC5AE3F00229796 /* PrintObject.m */,
+				724CC3031DC5AE3F00229796 /* Word.h */,
+				724CC3041DC5AE3F00229796 /* Word.m */,
+				724CC3071DC5AE3F00229796 /* WordEntity+CoreDataProperties.h */,
+				724CC3081DC5AE3F00229796 /* WordEntity+CoreDataProperties.m */,
+				724CC3091DC5AE3F00229796 /* WordEntity.h */,
+				724CC30A1DC5AE3F00229796 /* WordEntity.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		724CC31F1DC5AEC000229796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				729933061DC63B710083C2D1 /* CoreData.framework */,
+				724CC3201DC5AEC000229796 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		724CC3221DC5AF3600229796 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				724CC3231DC5AF3600229796 /* Global.h */,
+				724CC3241DC5AF3600229796 /* Global.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7201199A1DC59D8C0006A03A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724CC3141DC5AE3F00229796 /* Word.h in Headers */,
+				724CC3191DC5AE3F00229796 /* WordEntity+CoreDataProperties.h in Headers */,
+				724CC30E1DC5AE3F00229796 /* DataManagement.h in Headers */,
+				724CC31C1DC5AE3F00229796 /* WordEntity.h in Headers */,
+				720119AE1DC59D8C0006A03A /* DictionaryFramework.h in Headers */,
+				724CC3111DC5AE3F00229796 /* PrintObject.h in Headers */,
+				724CC3251DC5AF3600229796 /* Global.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7201199C1DC59D8C0006A03A /* DictionaryFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720119B11DC59D8C0006A03A /* Build configuration list for PBXNativeTarget "DictionaryFramework" */;
+			buildPhases = (
+				720119981DC59D8C0006A03A /* Sources */,
+				720119991DC59D8C0006A03A /* Frameworks */,
+				7201199A1DC59D8C0006A03A /* Headers */,
+				7201199B1DC59D8C0006A03A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DictionaryFramework;
+			productName = DictionaryFramework;
+			productReference = 7201199D1DC59D8C0006A03A /* DictionaryFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		720119A51DC59D8C0006A03A /* DictionaryFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720119B41DC59D8C0006A03A /* Build configuration list for PBXNativeTarget "DictionaryFrameworkTests" */;
+			buildPhases = (
+				720119A21DC59D8C0006A03A /* Sources */,
+				720119A31DC59D8C0006A03A /* Frameworks */,
+				720119A41DC59D8C0006A03A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				720119A91DC59D8C0006A03A /* PBXTargetDependency */,
+			);
+			name = DictionaryFrameworkTests;
+			productName = DictionaryFrameworkTests;
+			productReference = 720119A61DC59D8C0006A03A /* DictionaryFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		720119941DC59D8C0006A03A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = msp;
+				TargetAttributes = {
+					7201199C1DC59D8C0006A03A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SZRD3TP5DL;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					720119A51DC59D8C0006A03A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SZRD3TP5DL;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 720119971DC59D8C0006A03A /* Build configuration list for PBXProject "DictionaryFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 720119931DC59D8C0006A03A;
+			productRefGroup = 7201199E1DC59D8C0006A03A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7201199C1DC59D8C0006A03A /* DictionaryFramework */,
+				720119A51DC59D8C0006A03A /* DictionaryFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7201199B1DC59D8C0006A03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720119A41DC59D8C0006A03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		720119981DC59D8C0006A03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7228C03D1DC6BE6C007F56CB /* Word.xcdatamodeld in Sources */,
+				724CC30F1DC5AE3F00229796 /* DataManagement.m in Sources */,
+				724CC3151DC5AE3F00229796 /* Word.m in Sources */,
+				724CC3261DC5AF3600229796 /* Global.m in Sources */,
+				724CC31A1DC5AE3F00229796 /* WordEntity+CoreDataProperties.m in Sources */,
+				724CC3121DC5AE3F00229796 /* PrintObject.m in Sources */,
+				724CC31D1DC5AE3F00229796 /* WordEntity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720119A21DC59D8C0006A03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7228C03F1DC6BEAE007F56CB /* Word.xcdatamodeld in Sources */,
+				724CC3131DC5AE3F00229796 /* PrintObject.m in Sources */,
+				720119AC1DC59D8C0006A03A /* DictionaryFrameworkTests.m in Sources */,
+				7228C03E1DC6BE9D007F56CB /* DataManagement.m in Sources */,
+				724CC31E1DC5AE3F00229796 /* WordEntity.m in Sources */,
+				720119B81DC59E960006A03A /* DataTest.m in Sources */,
+				724CC3271DC5AF3600229796 /* Global.m in Sources */,
+				724CC31B1DC5AE3F00229796 /* WordEntity+CoreDataProperties.m in Sources */,
+				724CC3161DC5AE3F00229796 /* Word.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		720119A91DC59D8C0006A03A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7201199C1DC59D8C0006A03A /* DictionaryFramework */;
+			targetProxy = 720119A81DC59D8C0006A03A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		720119AF1DC59D8C0006A03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		720119B01DC59D8C0006A03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		720119B21DC59D8C0006A03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SZRD3TP5DL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DictionaryFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msp.DictionaryFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		720119B31DC59D8C0006A03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SZRD3TP5DL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DictionaryFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msp.DictionaryFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		720119B51DC59D8C0006A03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SZRD3TP5DL;
+				INFOPLIST_FILE = DictionaryFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msp.DictionaryFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DictionaryFrameworkTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		720119B61DC59D8C0006A03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SZRD3TP5DL;
+				INFOPLIST_FILE = DictionaryFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msp.DictionaryFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DictionaryFrameworkTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		720119971DC59D8C0006A03A /* Build configuration list for PBXProject "DictionaryFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720119AF1DC59D8C0006A03A /* Debug */,
+				720119B01DC59D8C0006A03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720119B11DC59D8C0006A03A /* Build configuration list for PBXNativeTarget "DictionaryFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720119B21DC59D8C0006A03A /* Debug */,
+				720119B31DC59D8C0006A03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720119B41DC59D8C0006A03A /* Build configuration list for PBXNativeTarget "DictionaryFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720119B51DC59D8C0006A03A /* Debug */,
+				720119B61DC59D8C0006A03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7228C03B1DC6BE6C007F56CB /* Word.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7228C03C1DC6BE6C007F56CB /* Word.xcdatamodel */,
+			);
+			currentVersion = 7228C03C1DC6BE6C007F56CB /* Word.xcdatamodel */;
+			path = Word.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 720119941DC59D8C0006A03A /* Project object */;
+}

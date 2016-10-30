@@ -24,6 +24,9 @@
 
         <header-file src="src/ios/DataPlugin.h"/>
         <source-file src="src/ios/DataPlugin.m"/>
+
+        <header-file src="src/ios/Word.h"/>
+        <source-file src="src/ios/Word.m"/>
     </platform>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
