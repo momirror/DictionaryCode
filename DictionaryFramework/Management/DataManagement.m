@@ -100,6 +100,10 @@ static DataManagement * insance = nil;
 //插入数据
 - (BOOL)addIntoDataSource:(Word*)item {
     
+    if(!item || !item.word || item.word.length < 1){
+        return NO;
+    }
+    
     if([self isExist:item.word])
     {
         return [self update:item];
@@ -169,8 +173,20 @@ static DataManagement * insance = nil;
     }
  
     for (WordEntity* item in mutableFetchResult) {
+        
         NSLog(@"word:%@",item.word);
         NSLog(@"transition:%@",[[NSString alloc] initWithData:item.translate encoding:NSUTF8StringEncoding]);
+        if([item.word isEqualToString:word]){
+            
+            Word * resultWord = [[Word alloc] init];
+            resultWord.word = item.word;
+            resultWord.ukphonetic = item.ukphonetic;
+            resultWord.usphonetic = item.usphonetic;
+            resultWord.translate = [Global convertUnicodeToUTF8:[[NSString alloc] initWithData:item.translate encoding:NSUTF8StringEncoding]] ;
+            
+            return resultWord;
+        }
+        
     }
     
     return nil;
