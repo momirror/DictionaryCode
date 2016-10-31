@@ -10,6 +10,8 @@ function DataSvc($q,AppInfoSvc) {
     return{
         parseJson:parseJson,
         getAllData:getAllData,
+        getWord:getWord,
+        savefWord:saveWord,
 
     };
 
@@ -34,5 +36,13 @@ function DataSvc($q,AppInfoSvc) {
         }
 
         return defer.promise;
+    }
+
+    function getWord(){
+        console.log('getWord');
+    }
+
+    function saveWord() {
+        console.log('saveWord');
     }
 };
