@@ -27,6 +27,8 @@
 
         <header-file src="src/ios/Word.h"/>
         <source-file src="src/ios/Word.m"/>
+
+        <framework src="src/ios/DictionaryFramework.framework" custom="true"/>
     </platform>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">

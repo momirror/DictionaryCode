@@ -1,9 +1,9 @@
-console.log('------------------Copy Resource and Project Configuration---------------');
+//console.log('------------------Copy Resource and Project Configuration---------------');
 
 var path = require('path'),
     shjs = require('shelljs');
-
-var platform = path.join(process.cwd(), 'platforms', 'ios', 'SafeFamily.xcodeproj');
+//
+//var platform = path.join(process.cwd(), 'platforms', 'ios', 'SafeFamily.xcodeproj');
 //var resources = path.join(process.cwd(), 'platforms', 'ios', 'SafeFamily', 'Resources');
 //var project = path.join(process.cwd(), 'platforms', 'ios', 'SafeFamily');
 //var ios = path.join(process.cwd(), 'platforms', 'ios');
