@@ -64,8 +64,9 @@ static DataManagement * insance = nil;
     if (_managedObjectModel !=nil) {
         return _managedObjectModel;
     }
-    //这里一定要注意，这里的iWeather就是你刚才建立的数据模型的名字，一定要一致。否则会报错。
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Word"withExtension:@"momd"];
+    
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSURL *modelURL = [bundle URLForResource:@"Word"withExtension:@"momd"];
 
     _managedObjectModel = [[NSManagedObjectModel alloc]initWithContentsOfURL:modelURL];
     return _managedObjectModel;

@@ -2,11 +2,12 @@
 //  DictionaryFrameworkTests.m
 //  DictionaryFrameworkTests
 //
-//  Created by msp on 16/10/30.
-//  Copyright © 2016年 msp. All rights reserved.
+//  Created by Spencer Mo on 10/31/16.
+//  Copyright © 2016 Spencer Mo. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import "DataManagement.h"
 
 @interface DictionaryFrameworkTests : XCTestCase
 
@@ -27,6 +28,16 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+//    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+//    NSURL *modelURL = [bundle URLForResource:@"Word"withExtension:@"momd"];
+    DataManagement * management = [DataManagement instance];
+    Word * item = [[Word alloc] init];
+    item.word = @"hello";
+    item.ukphonetic = @"hello";
+    item.usphonetic = @"hello";
+    item.translate = @"hello";
+    [management addIntoDataSource:item];
+
 }
 
 - (void)testPerformanceExample {

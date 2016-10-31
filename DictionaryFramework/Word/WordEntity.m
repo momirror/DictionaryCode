@@ -11,5 +11,8 @@
 @implementation WordEntity
 
 // Insert code here to add functionality to your managed object subclass
-
+@dynamic word;
+@dynamic ukphonetic;
+@dynamic usphonetic;
+@dynamic translate;
 @end

@@ -9,12 +9,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DictionaryFrameworkTests/DataTest.m"
-            timestampString = "499508091.892505"
+            filePath = "DictionaryFrameworkTests/DictionaryFrameworkTests.m"
+            timestampString = "499569768.88761"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "-testExample"
             landmarkType = "7">
          </BreakpointContent>
@@ -25,12 +25,76 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DictionaryFramework/Data/DataManagement.m"
-            timestampString = "499564154.903471"
+            filePath = "Management/DataManagement.m"
+            timestampString = "499570182.942952"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-managedObjectModel"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DataManagement managedObjectModel]"
+                  moduleName = "DictionaryFrameworkTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moshanpi/Desktop/DictionaryFramework/Management/DataManagement.m"
+                  timestampString = "499572870.301843"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DataManagement managedObjectModel]"
+                  moduleName = "DictionaryFramework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moshanpi/Desktop/DictionaryFramework/Management/DataManagement.m"
+                  timestampString = "499572870.307461"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DictionaryFrameworkTests/DictionaryFrameworkTests.m"
+            timestampString = "499572601.96662"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-testExample"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Management/DataManagement.m"
+            timestampString = "499570214.651758"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "-addIntoDataSource:"
             landmarkType = "7">
             <Locations>
@@ -41,12 +105,12 @@
                   symbolName = "-[DataManagement addIntoDataSource:]"
                   moduleName = "DictionaryFrameworkTests"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/msp/Documents/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/DictionaryCode/DictionaryFramework/DictionaryFramework/Data/DataManagement.m"
-                  timestampString = "499508821.802064"
+                  urlString = "file:///Users/moshanpi/Desktop/DictionaryFramework/Management/DataManagement.m"
+                  timestampString = "499573519.262973"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "101"
-                  endingLineNumber = "101"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
                   offsetFromSymbolStart = "42">
                </Location>
                <Location
@@ -56,12 +120,12 @@
                   symbolName = "-[DataManagement addIntoDataSource:]"
                   moduleName = "DictionaryFramework"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/msp/Documents/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/DictionaryCode/DictionaryFramework/DictionaryFramework/Data/DataManagement.m"
-                  timestampString = "499508821.90219"
+                  urlString = "file:///Users/moshanpi/Desktop/DictionaryFramework/Management/DataManagement.m"
+                  timestampString = "499573519.26861"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "101"
-                  endingLineNumber = "101"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
                   offsetFromSymbolStart = "42">
                </Location>
             </Locations>
@@ -73,12 +137,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DictionaryFramework/Data/DataManagement.m"
-            timestampString = "499564154.903471"
+            filePath = "Management/DataManagement.m"
+            timestampString = "499570228.551262"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
             landmarkName = "-isExist:"
             landmarkType = "7">
             <Locations>
@@ -89,13 +153,13 @@
                   symbolName = "-[DataManagement isExist:]"
                   moduleName = "DictionaryFrameworkTests"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/msp/Documents/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/DictionaryCode/DictionaryFramework/DictionaryFramework/Data/DataManagement.m"
-                  timestampString = "499508867.701164"
+                  urlString = "file:///Users/moshanpi/Desktop/DictionaryFramework/Management/DataManagement.m"
+                  timestampString = "499573426.280943"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "131"
-                  endingLineNumber = "131"
-                  offsetFromSymbolStart = "68">
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "465">
                </Location>
                <Location
                   shouldBeEnabled = "No"
@@ -104,13 +168,13 @@
                   symbolName = "-[DataManagement isExist:]"
                   moduleName = "DictionaryFramework"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/msp/Documents/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/DictionaryCode/DictionaryFramework/DictionaryFramework/Data/DataManagement.m"
-                  timestampString = "499508867.715813"
+                  urlString = "file:///Users/moshanpi/Desktop/DictionaryFramework/Management/DataManagement.m"
+                  timestampString = "499573426.289333"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "131"
-                  endingLineNumber = "131"
-                  offsetFromSymbolStart = "68">
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "465">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -121,44 +185,44 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DictionaryFramework/Data/DataManagement.m"
-            timestampString = "499564154.903471"
+            filePath = "Management/DataManagement.m"
+            timestampString = "499572641.688071"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "-managedObjectModel"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "-persistentStoreCoordinator"
             landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[DataManagement managedObjectModel]"
+                  symbolName = "-[DataManagement persistentStoreCoordinator]"
                   moduleName = "DictionaryFrameworkTests"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/msp/Documents/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/DictionaryCode/DictionaryFramework/DictionaryFramework/Data/DataManagement.m"
-                  timestampString = "499530835.460469"
+                  urlString = "file:///Users/moshanpi/Desktop/DictionaryFramework/Management/DataManagement.m"
+                  timestampString = "499573426.283573"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "69"
-                  endingLineNumber = "69"
-                  offsetFromSymbolStart = "174">
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "172">
                </Location>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[DataManagement managedObjectModel]"
+                  symbolName = "-[DataManagement persistentStoreCoordinator]"
                   moduleName = "DictionaryFramework"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/msp/Documents/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/DictionaryCode/DictionaryFramework/DictionaryFramework/Data/DataManagement.m"
-                  timestampString = "499530835.591314"
+                  urlString = "file:///Users/moshanpi/Desktop/DictionaryFramework/Management/DataManagement.m"
+                  timestampString = "499573426.291231"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "69"
-                  endingLineNumber = "69"
-                  offsetFromSymbolStart = "174">
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "172">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -166,95 +230,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DictionaryFramework/Data/DataManagement.m"
-            timestampString = "499564154.903471"
+            filePath = "Management/DataManagement.m"
+            timestampString = "499573715.465758"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "-managedObjectModel"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "-addIntoDataSource:"
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[DataManagement managedObjectModel]"
+                  symbolName = "-[DataManagement addIntoDataSource:]"
                   moduleName = "DictionaryFrameworkTests"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/msp/Documents/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/DictionaryCode/DictionaryFramework/DictionaryFramework/Data/DataManagement.m"
-                  timestampString = "499564212.700679"
+                  urlString = "file:///Users/moshanpi/Desktop/DictionaryFramework/Management/DataManagement.m"
+                  timestampString = "499574218.479467"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "179">
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "512">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[DataManagement managedObjectModel]"
+                  symbolName = "-[DataManagement addIntoDataSource:]"
                   moduleName = "DictionaryFramework"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/msp/Documents/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/DictionaryCode/DictionaryFramework/DictionaryFramework/Data/DataManagement.m"
-                  timestampString = "499564212.707632"
+                  urlString = "file:///Users/moshanpi/Desktop/DictionaryFramework/Management/DataManagement.m"
+                  timestampString = "499574218.48422"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "179">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DictionaryFramework/Data/DataManagement.m"
-            timestampString = "499531096.006759"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-saveContext"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[DataManagement saveContext]"
-                  moduleName = "DictionaryFrameworkTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/msp/Documents/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/DictionaryCode/DictionaryFramework/DictionaryFramework/Data/DataManagement.m"
-                  timestampString = "499564212.703951"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[DataManagement saveContext]"
-                  moduleName = "DictionaryFramework"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/msp/Documents/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/DictionaryCode/DictionaryFramework/DictionaryFramework/Data/DataManagement.m"
-                  timestampString = "499564212.711098"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "24">
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "512">
                </Location>
             </Locations>
          </BreakpointContent>

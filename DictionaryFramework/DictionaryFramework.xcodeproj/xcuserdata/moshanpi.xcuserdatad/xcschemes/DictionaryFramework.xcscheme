@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7201199C1DC59D8C0006A03A"
+               BlueprintIdentifier = "9FDB134C1DC6D3E400350E4F"
                BuildableName = "DictionaryFramework.framework"
                BlueprintName = "DictionaryFramework"
                ReferencedContainer = "container:DictionaryFramework.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "720119A51DC59D8C0006A03A"
+               BlueprintIdentifier = "9FDB13551DC6D3E400350E4F"
                BuildableName = "DictionaryFrameworkTests.xctest"
                BlueprintName = "DictionaryFrameworkTests"
                ReferencedContainer = "container:DictionaryFramework.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7201199C1DC59D8C0006A03A"
+            BlueprintIdentifier = "9FDB134C1DC6D3E400350E4F"
             BuildableName = "DictionaryFramework.framework"
             BlueprintName = "DictionaryFramework"
             ReferencedContainer = "container:DictionaryFramework.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7201199C1DC59D8C0006A03A"
+            BlueprintIdentifier = "9FDB134C1DC6D3E400350E4F"
             BuildableName = "DictionaryFramework.framework"
             BlueprintName = "DictionaryFramework"
             ReferencedContainer = "container:DictionaryFramework.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7201199C1DC59D8C0006A03A"
+            BlueprintIdentifier = "9FDB134C1DC6D3E400350E4F"
             BuildableName = "DictionaryFramework.framework"
             BlueprintName = "DictionaryFramework"
             ReferencedContainer = "container:DictionaryFramework.xcodeproj">

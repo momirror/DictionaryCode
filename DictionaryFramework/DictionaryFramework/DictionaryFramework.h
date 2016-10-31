@@ -2,8 +2,8 @@
 //  DictionaryFramework.h
 //  DictionaryFramework
 //
-//  Created by msp on 16/10/30.
-//  Copyright © 2016年 msp. All rights reserved.
+//  Created by Spencer Mo on 10/31/16.
+//  Copyright © 2016 Spencer Mo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
