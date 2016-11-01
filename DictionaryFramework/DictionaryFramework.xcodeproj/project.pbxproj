@@ -7,29 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F6481071DC82F1D0095F896 /* PrintObjTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6481061DC82F1D0095F896 /* PrintObjTest.m */; };
+		9F64811F1DC86ED40095F896 /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6481101DC86ED40095F896 /* Global.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F6481201DC86ED40095F896 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6481111DC86ED40095F896 /* Global.m */; };
+		9F6481211DC86ED40095F896 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6481111DC86ED40095F896 /* Global.m */; };
+		9F6481221DC86ED40095F896 /* DataManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6481131DC86ED40095F896 /* DataManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F6481231DC86ED40095F896 /* DataManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6481141DC86ED40095F896 /* DataManagement.m */; };
+		9F6481241DC86ED40095F896 /* DataManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6481141DC86ED40095F896 /* DataManagement.m */; };
+		9F6481251DC86ED40095F896 /* PrintObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6481161DC86ED40095F896 /* PrintObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F6481261DC86ED40095F896 /* PrintObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6481171DC86ED40095F896 /* PrintObject.m */; };
+		9F6481271DC86ED40095F896 /* PrintObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6481171DC86ED40095F896 /* PrintObject.m */; };
+		9F6481281DC86ED40095F896 /* Word.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6481191DC86ED40095F896 /* Word.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F6481291DC86ED40095F896 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64811A1DC86ED40095F896 /* Word.m */; };
+		9F64812A1DC86ED40095F896 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64811A1DC86ED40095F896 /* Word.m */; };
+		9F64812B1DC86ED40095F896 /* WordEntity+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F64811B1DC86ED40095F896 /* WordEntity+CoreDataProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F64812C1DC86ED40095F896 /* WordEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64811C1DC86ED40095F896 /* WordEntity+CoreDataProperties.m */; };
+		9F64812D1DC86ED40095F896 /* WordEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64811C1DC86ED40095F896 /* WordEntity+CoreDataProperties.m */; };
+		9F64812E1DC86ED40095F896 /* WordEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F64811D1DC86ED40095F896 /* WordEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F64812F1DC86ED40095F896 /* WordEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64811E1DC86ED40095F896 /* WordEntity.m */; };
+		9F6481301DC86ED40095F896 /* WordEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64811E1DC86ED40095F896 /* WordEntity.m */; };
 		9FDB13571DC6D3E400350E4F /* DictionaryFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDB134D1DC6D3E400350E4F /* DictionaryFramework.framework */; };
 		9FDB135C1DC6D3E400350E4F /* DictionaryFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB135B1DC6D3E400350E4F /* DictionaryFrameworkTests.m */; };
 		9FDB135E1DC6D3E400350E4F /* DictionaryFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDB13501DC6D3E400350E4F /* DictionaryFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FDB136B1DC6D42100350E4F /* Word.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB13691DC6D42100350E4F /* Word.xcdatamodeld */; };
 		9FDB136C1DC6D42100350E4F /* Word.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB13691DC6D42100350E4F /* Word.xcdatamodeld */; };
-		9FDB137D1DC6D55300350E4F /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDB136E1DC6D55300350E4F /* Global.h */; };
-		9FDB137E1DC6D55300350E4F /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB136F1DC6D55300350E4F /* Global.m */; };
-		9FDB137F1DC6D55300350E4F /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB136F1DC6D55300350E4F /* Global.m */; };
-		9FDB13801DC6D55300350E4F /* DataManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDB13711DC6D55300350E4F /* DataManagement.h */; };
-		9FDB13811DC6D55300350E4F /* DataManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB13721DC6D55300350E4F /* DataManagement.m */; };
-		9FDB13821DC6D55300350E4F /* DataManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB13721DC6D55300350E4F /* DataManagement.m */; };
-		9FDB13831DC6D55300350E4F /* PrintObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDB13741DC6D55300350E4F /* PrintObject.h */; };
-		9FDB13841DC6D55300350E4F /* PrintObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB13751DC6D55300350E4F /* PrintObject.m */; };
-		9FDB13851DC6D55300350E4F /* PrintObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB13751DC6D55300350E4F /* PrintObject.m */; };
-		9FDB13861DC6D55300350E4F /* Word.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDB13771DC6D55300350E4F /* Word.h */; };
-		9FDB13871DC6D55300350E4F /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB13781DC6D55300350E4F /* Word.m */; };
-		9FDB13881DC6D55300350E4F /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB13781DC6D55300350E4F /* Word.m */; };
-		9FDB13891DC6D55300350E4F /* WordEntity+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDB13791DC6D55300350E4F /* WordEntity+CoreDataProperties.h */; };
-		9FDB138A1DC6D55300350E4F /* WordEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB137A1DC6D55300350E4F /* WordEntity+CoreDataProperties.m */; };
-		9FDB138B1DC6D55300350E4F /* WordEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB137A1DC6D55300350E4F /* WordEntity+CoreDataProperties.m */; };
-		9FDB138C1DC6D55300350E4F /* WordEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDB137B1DC6D55300350E4F /* WordEntity.h */; };
-		9FDB138D1DC6D55300350E4F /* WordEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB137C1DC6D55300350E4F /* WordEntity.m */; };
-		9FDB138E1DC6D55300350E4F /* WordEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB137C1DC6D55300350E4F /* WordEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F6481061DC82F1D0095F896 /* PrintObjTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintObjTest.m; sourceTree = "<group>"; };
+		9F6481101DC86ED40095F896 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		9F6481111DC86ED40095F896 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		9F6481131DC86ED40095F896 /* DataManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManagement.h; sourceTree = "<group>"; };
+		9F6481141DC86ED40095F896 /* DataManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManagement.m; sourceTree = "<group>"; };
+		9F6481161DC86ED40095F896 /* PrintObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintObject.h; sourceTree = "<group>"; };
+		9F6481171DC86ED40095F896 /* PrintObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintObject.m; sourceTree = "<group>"; };
+		9F6481191DC86ED40095F896 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		9F64811A1DC86ED40095F896 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		9F64811B1DC86ED40095F896 /* WordEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WordEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9F64811C1DC86ED40095F896 /* WordEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WordEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9F64811D1DC86ED40095F896 /* WordEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordEntity.h; sourceTree = "<group>"; };
+		9F64811E1DC86ED40095F896 /* WordEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordEntity.m; sourceTree = "<group>"; };
 		9FDB134D1DC6D3E400350E4F /* DictionaryFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictionaryFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDB13501DC6D3E400350E4F /* DictionaryFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryFramework.h; sourceTree = "<group>"; };
 		9FDB13511DC6D3E400350E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,18 +64,6 @@
 		9FDB135B1DC6D3E400350E4F /* DictionaryFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryFrameworkTests.m; sourceTree = "<group>"; };
 		9FDB135D1DC6D3E400350E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FDB136A1DC6D42100350E4F /* Word.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Word.xcdatamodel; sourceTree = "<group>"; };
-		9FDB136E1DC6D55300350E4F /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
-		9FDB136F1DC6D55300350E4F /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
-		9FDB13711DC6D55300350E4F /* DataManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManagement.h; sourceTree = "<group>"; };
-		9FDB13721DC6D55300350E4F /* DataManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManagement.m; sourceTree = "<group>"; };
-		9FDB13741DC6D55300350E4F /* PrintObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintObject.h; sourceTree = "<group>"; };
-		9FDB13751DC6D55300350E4F /* PrintObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintObject.m; sourceTree = "<group>"; };
-		9FDB13771DC6D55300350E4F /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
-		9FDB13781DC6D55300350E4F /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
-		9FDB13791DC6D55300350E4F /* WordEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WordEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
-		9FDB137A1DC6D55300350E4F /* WordEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WordEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
-		9FDB137B1DC6D55300350E4F /* WordEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordEntity.h; sourceTree = "<group>"; };
-		9FDB137C1DC6D55300350E4F /* WordEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordEntity.m; sourceTree = "<group>"; };
 		9FDB138F1DC6D57000350E4F /* DictionaryFrameworkTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DictionaryFrameworkTests-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,13 +86,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F64810F1DC86ED40095F896 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9F6481101DC86ED40095F896 /* Global.h */,
+				9F6481111DC86ED40095F896 /* Global.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9F6481121DC86ED40095F896 /* Management */ = {
+			isa = PBXGroup;
+			children = (
+				9F6481131DC86ED40095F896 /* DataManagement.h */,
+				9F6481141DC86ED40095F896 /* DataManagement.m */,
+			);
+			path = Management;
+			sourceTree = "<group>";
+		};
+		9F6481151DC86ED40095F896 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9F6481161DC86ED40095F896 /* PrintObject.h */,
+				9F6481171DC86ED40095F896 /* PrintObject.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		9F6481181DC86ED40095F896 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				9F6481191DC86ED40095F896 /* Word.h */,
+				9F64811A1DC86ED40095F896 /* Word.m */,
+				9F64811B1DC86ED40095F896 /* WordEntity+CoreDataProperties.h */,
+				9F64811C1DC86ED40095F896 /* WordEntity+CoreDataProperties.m */,
+				9F64811D1DC86ED40095F896 /* WordEntity.h */,
+				9F64811E1DC86ED40095F896 /* WordEntity.m */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
 		9FDB13431DC6D3E400350E4F = {
 			isa = PBXGroup;
 			children = (
-				9FDB136D1DC6D55300350E4F /* Common */,
-				9FDB13701DC6D55300350E4F /* Management */,
-				9FDB13731DC6D55300350E4F /* Others */,
-				9FDB13761DC6D55300350E4F /* Word */,
 				9FDB13681DC6D41500350E4F /* Resource */,
 				9FDB134F1DC6D3E400350E4F /* DictionaryFramework */,
 				9FDB135A1DC6D3E400350E4F /* DictionaryFrameworkTests */,
@@ -111,6 +149,10 @@
 		9FDB134F1DC6D3E400350E4F /* DictionaryFramework */ = {
 			isa = PBXGroup;
 			children = (
+				9F64810F1DC86ED40095F896 /* Common */,
+				9F6481121DC86ED40095F896 /* Management */,
+				9F6481151DC86ED40095F896 /* Others */,
+				9F6481181DC86ED40095F896 /* Word */,
 				9FDB13501DC6D3E400350E4F /* DictionaryFramework.h */,
 				9FDB13511DC6D3E400350E4F /* Info.plist */,
 			);
@@ -122,6 +164,7 @@
 			children = (
 				9FDB135B1DC6D3E400350E4F /* DictionaryFrameworkTests.m */,
 				9FDB135D1DC6D3E400350E4F /* Info.plist */,
+				9F6481061DC82F1D0095F896 /* PrintObjTest.m */,
 			);
 			path = DictionaryFrameworkTests;
 			sourceTree = "<group>";
@@ -134,46 +177,6 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		9FDB136D1DC6D55300350E4F /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				9FDB136E1DC6D55300350E4F /* Global.h */,
-				9FDB136F1DC6D55300350E4F /* Global.m */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		9FDB13701DC6D55300350E4F /* Management */ = {
-			isa = PBXGroup;
-			children = (
-				9FDB13711DC6D55300350E4F /* DataManagement.h */,
-				9FDB13721DC6D55300350E4F /* DataManagement.m */,
-			);
-			path = Management;
-			sourceTree = "<group>";
-		};
-		9FDB13731DC6D55300350E4F /* Others */ = {
-			isa = PBXGroup;
-			children = (
-				9FDB13741DC6D55300350E4F /* PrintObject.h */,
-				9FDB13751DC6D55300350E4F /* PrintObject.m */,
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		9FDB13761DC6D55300350E4F /* Word */ = {
-			isa = PBXGroup;
-			children = (
-				9FDB13771DC6D55300350E4F /* Word.h */,
-				9FDB13781DC6D55300350E4F /* Word.m */,
-				9FDB13791DC6D55300350E4F /* WordEntity+CoreDataProperties.h */,
-				9FDB137A1DC6D55300350E4F /* WordEntity+CoreDataProperties.m */,
-				9FDB137B1DC6D55300350E4F /* WordEntity.h */,
-				9FDB137C1DC6D55300350E4F /* WordEntity.m */,
-			);
-			path = Word;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -181,13 +184,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FDB13861DC6D55300350E4F /* Word.h in Headers */,
-				9FDB13891DC6D55300350E4F /* WordEntity+CoreDataProperties.h in Headers */,
-				9FDB13801DC6D55300350E4F /* DataManagement.h in Headers */,
-				9FDB138C1DC6D55300350E4F /* WordEntity.h in Headers */,
+				9F6481281DC86ED40095F896 /* Word.h in Headers */,
+				9F64812B1DC86ED40095F896 /* WordEntity+CoreDataProperties.h in Headers */,
+				9F6481221DC86ED40095F896 /* DataManagement.h in Headers */,
+				9F64812E1DC86ED40095F896 /* WordEntity.h in Headers */,
 				9FDB135E1DC6D3E400350E4F /* DictionaryFramework.h in Headers */,
-				9FDB137D1DC6D55300350E4F /* Global.h in Headers */,
-				9FDB13831DC6D55300350E4F /* PrintObject.h in Headers */,
+				9F6481251DC86ED40095F896 /* PrintObject.h in Headers */,
+				9F64811F1DC86ED40095F896 /* Global.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,13 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FDB13871DC6D55300350E4F /* Word.m in Sources */,
-				9FDB13841DC6D55300350E4F /* PrintObject.m in Sources */,
-				9FDB137E1DC6D55300350E4F /* Global.m in Sources */,
-				9FDB13811DC6D55300350E4F /* DataManagement.m in Sources */,
-				9FDB138A1DC6D55300350E4F /* WordEntity+CoreDataProperties.m in Sources */,
+				9F6481291DC86ED40095F896 /* Word.m in Sources */,
+				9F6481261DC86ED40095F896 /* PrintObject.m in Sources */,
+				9F6481201DC86ED40095F896 /* Global.m in Sources */,
+				9F6481231DC86ED40095F896 /* DataManagement.m in Sources */,
+				9F64812C1DC86ED40095F896 /* WordEntity+CoreDataProperties.m in Sources */,
 				9FDB136B1DC6D42100350E4F /* Word.xcdatamodeld in Sources */,
-				9FDB138D1DC6D55300350E4F /* WordEntity.m in Sources */,
+				9F64812F1DC86ED40095F896 /* WordEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FDB138E1DC6D55300350E4F /* WordEntity.m in Sources */,
-				9FDB13851DC6D55300350E4F /* PrintObject.m in Sources */,
-				9FDB137F1DC6D55300350E4F /* Global.m in Sources */,
+				9F6481211DC86ED40095F896 /* Global.m in Sources */,
+				9F6481071DC82F1D0095F896 /* PrintObjTest.m in Sources */,
+				9F6481271DC86ED40095F896 /* PrintObject.m in Sources */,
 				9FDB135C1DC6D3E400350E4F /* DictionaryFrameworkTests.m in Sources */,
-				9FDB13821DC6D55300350E4F /* DataManagement.m in Sources */,
-				9FDB138B1DC6D55300350E4F /* WordEntity+CoreDataProperties.m in Sources */,
+				9F6481241DC86ED40095F896 /* DataManagement.m in Sources */,
+				9F6481301DC86ED40095F896 /* WordEntity.m in Sources */,
 				9FDB136C1DC6D42100350E4F /* Word.xcdatamodeld in Sources */,
-				9FDB13881DC6D55300350E4F /* Word.m in Sources */,
+				9F64812D1DC86ED40095F896 /* WordEntity+CoreDataProperties.m in Sources */,
+				9F64812A1DC86ED40095F896 /* Word.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +512,7 @@
 				9FDB13631DC6D3E400350E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FDB13641DC6D3E400350E4F /* Build configuration list for PBXNativeTarget "DictionaryFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +521,7 @@
 				9FDB13661DC6D3E400350E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -3,14 +3,12 @@
 var path = require('path'),
     shjs = require('shelljs');
 //
-//var platform = path.join(process.cwd(), 'platforms', 'ios', 'SafeFamily.xcodeproj');
-//var resources = path.join(process.cwd(), 'platforms', 'ios', 'SafeFamily', 'Resources');
-//var project = path.join(process.cwd(), 'platforms', 'ios', 'SafeFamily');
-//var ios = path.join(process.cwd(), 'platforms', 'ios');
+var platform = path.join(process.cwd(), 'platforms', 'ios', 'Dictionary.xcodeproj');
+var project = path.join(process.cwd(), 'platforms', 'ios', 'Dictionary');
+var ios = path.join(process.cwd(), 'platforms', 'ios');
+//var resources = path.join(process.cwd(), 'platforms', 'ios', 'Dictionary', 'Resources');
 //
-//shjs.cp('-rf',path.join('plugins', 'com.mcafee.safefamily', 'src', 'ios', 'project.pbxproj'),platform);
-//shjs.cp('-rf',path.join('plugins', 'com.mcafee.safefamily', 'src', 'ios', 'Resources/*'),resources);
-//shjs.cp('-rf',path.join('plugins', 'com.mcafee.safefamily', 'src', 'ios', 'SafeFamily-InHouse-Info.plist'),project);
-//shjs.cp('-rf',path.join('plugins', 'com.mcafee.safefamily', 'src', 'ios', 'SafeFamily-Info.plist'),project);
-//shjs.cp('-rf',path.join('plugins', 'com.mcafee.safefamily', 'src', 'ios', 'exportOptionsAppStore.plist'), ios);
-//shjs.cp('-rf',path.join('plugins', 'com.mcafee.safefamily', 'src', 'ios', 'exportOptionsInHouse.plist'), ios);
+
+shjs.cp('-rf',path.join('plugins', 'DictionaryPlugin', 'src', 'ios', 'project.pbxproj'),platform);
+shjs.cp('-rf',path.join('plugins', 'DictionaryPlugin', 'src', 'ios', 'Dictionary-Info.plist'),project);
+//shjs.cp('-rf',path.join('plugins', 'DictionaryPlugin', 'src', 'ios', 'Resources/*'),resources);

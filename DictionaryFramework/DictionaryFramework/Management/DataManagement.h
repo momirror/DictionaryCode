@@ -10,6 +10,8 @@
 #import <CoreData/CoreData.h>
 #import "WordEntity+CoreDataProperties.h"
 #import "Word.h"
+#import "Global.h"
+#import "PrintObject.h"
 
 @interface DataManagement : NSObject
 

@@ -30,7 +30,7 @@ var app = {
     
     parse:function(jsonObj)
     {
-        exec(null,null,"DataPlugin","parseData",[jsonObj]);
+        exec(null,null,"DataPlugin","saveData",[jsonObj]);
     },
     // Bind Event Listeners
     //

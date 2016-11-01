@@ -4,13 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		ARiSTlQnXq4+xpeLnQByp4nSv/0=
+		</data>
+		<key>Headers/DataManagement.h</key>
+		<data>
+		bmxEnIdEcSTS2tJZF+7LlG6VQYg=
+		</data>
 		<key>Headers/DictionaryFramework.h</key>
 		<data>
-		HdbHNmrp13patMAMFk0VehFn9o8=
+		ITXCEggAQhD/VQdKQGQ4Yesstrw=
+		</data>
+		<key>Headers/Global.h</key>
+		<data>
+		ul4/g7Ird5PB2HDYkWlewe6aIX4=
+		</data>
+		<key>Headers/PrintObject.h</key>
+		<data>
+		WCJNXPEme/STORDoIUiG/Eoabrk=
+		</data>
+		<key>Headers/Word.h</key>
+		<data>
+		O8a7rS27k65xzCJ0eGldlykYNxo=
+		</data>
+		<key>Headers/WordEntity+CoreDataProperties.h</key>
+		<data>
+		uu0U6trLVQAPUJF6DwchtQS35mI=
+		</data>
+		<key>Headers/WordEntity.h</key>
+		<data>
+		wIj4OB9oSQz7FQfe/z6V9PjE5VA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jZSyUYE+xUMgGAxcaLsfAoMQqkw=
+		zE+HOQQGUycPu5RDsOSh8PEOydc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,15 +55,81 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/DataManagement.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bmxEnIdEcSTS2tJZF+7LlG6VQYg=
+			</data>
+			<key>hash2</key>
+			<data>
+			QL6ef8/tca38YxvJcL1GXtX1qWpu1CCN6HjZWpLWY68=
+			</data>
+		</dict>
 		<key>Headers/DictionaryFramework.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HdbHNmrp13patMAMFk0VehFn9o8=
+			ITXCEggAQhD/VQdKQGQ4Yesstrw=
 			</data>
 			<key>hash2</key>
 			<data>
-			c1i502u9RrSk15D0WFY+qVYMRpPamqzDOwkPVYq1sYE=
+			XzJkLNEQUVwOpGlMRJ2tNFCReJottJI7B8Db0hV401c=
+			</data>
+		</dict>
+		<key>Headers/Global.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ul4/g7Ird5PB2HDYkWlewe6aIX4=
+			</data>
+			<key>hash2</key>
+			<data>
+			yqgJ9PXAqbx8bO/DhKM1W5xbEh85bVs34d7X++9apQM=
+			</data>
+		</dict>
+		<key>Headers/PrintObject.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WCJNXPEme/STORDoIUiG/Eoabrk=
+			</data>
+			<key>hash2</key>
+			<data>
+			UtvooiLEZugKQ/JteheCQIKS2B8cQXCp2BLkBMPYQZk=
+			</data>
+		</dict>
+		<key>Headers/Word.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O8a7rS27k65xzCJ0eGldlykYNxo=
+			</data>
+			<key>hash2</key>
+			<data>
+			kvZ9liNCaIku9wQ24rZiucQ1dZ63ezJHqJuVYPcR+40=
+			</data>
+		</dict>
+		<key>Headers/WordEntity+CoreDataProperties.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uu0U6trLVQAPUJF6DwchtQS35mI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mef7cY/d4aDeXe9m0CqlkWN2uEFD2DH1Gdl7u3k66cw=
+			</data>
+		</dict>
+		<key>Headers/WordEntity.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wIj4OB9oSQz7FQfe/z6V9PjE5VA=
+			</data>
+			<key>hash2</key>
+			<data>
+			XO+nMVKChswQozVu3A6OKxQPZ3Qu/RcuhUmMDosJY0Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

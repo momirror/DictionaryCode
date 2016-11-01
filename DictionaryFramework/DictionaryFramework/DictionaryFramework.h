@@ -15,5 +15,12 @@ FOUNDATION_EXPORT double DictionaryFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char DictionaryFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DictionaryFramework/PublicHeader.h>
+#import <DictionaryFramework/Global.h>
+#import <DictionaryFramework/DataManagement.h>
+#import <DictionaryFramework/PrintObject.h>
+#import <DictionaryFramework/Word.h>
+#import <DictionaryFramework/WordEntity.h>
+
+
 
 

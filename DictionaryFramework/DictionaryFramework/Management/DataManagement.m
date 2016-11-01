@@ -7,8 +7,7 @@
 //
 
 #import "DataManagement.h"
-#import "Global.h"
-#import "PrintObject.h"
+
 
 static DataManagement * insance = nil;
 
@@ -264,7 +263,7 @@ static DataManagement * insance = nil;
     if (mutableFetchResult==nil) {
         NSLog(@"Error:%@",error);
     }
-    NSLog(@"The count of entry: %i",[mutableFetchResult count]);
+    NSLog(@"The count of entry: %lu",(unsigned long)[mutableFetchResult count]);
     for (WordEntity* user in mutableFetchResult) {
         [self.managedObjectContext deleteObject:user];
     }

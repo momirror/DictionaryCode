@@ -17,14 +17,14 @@ function DataSvc($q,AppInfoSvc) {
 
     function parseJson(jsonData) {
         var exec = cordova.require('cordova/exec');
-        exec(null,null,"DataPlugin","parseData",[jsonData]);
+        exec(null,null,"DataPlugin","saveData",[jsonData]);
     }
 
 
     function getAllData() {
         var defer = $q.defer();
 
-        if(AppInfoSvc.isBrowser){
+        if(AppInfoSvc.isBrowser()){
             console.log('browser platform');
         }else {
             var exec = cordova.require('cordova/exec');

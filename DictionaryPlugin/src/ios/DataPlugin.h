@@ -7,8 +7,9 @@
 //
 
 #import <Cordova/CDVPlugin.h>
+#import <DictionaryFramework/DictionaryFramework.h>
 
 @interface DataPlugin : CDVPlugin
-- (void)parseData:(CDVInvokedUrlCommand*)command;
+- (void)saveData:(CDVInvokedUrlCommand*)command;
 - (void)getAllData:(CDVInvokedUrlCommand*)comand;
 @end
