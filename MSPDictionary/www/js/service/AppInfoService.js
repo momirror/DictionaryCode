@@ -5,8 +5,8 @@
 
 var serviceModule = angular.module('dicApp.service');
 serviceModule.service('AppInfoSvc',AppInfoSvc);
-
-function AppInfoSvc() {
+AppInfoSvc.$injector = ['$window'];
+function AppInfoSvc($window) {
     return {
         platform:getPlatform,
         isIOS:isIOS,
@@ -27,7 +27,7 @@ function AppInfoSvc() {
     }
 
     function isBrowser(){
-        return !isIOS && !isAndroid();
+        return !isIOS() && !isAndroid();
     }
 };
 

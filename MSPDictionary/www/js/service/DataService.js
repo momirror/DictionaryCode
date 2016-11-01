@@ -16,8 +16,15 @@ function DataSvc($q,AppInfoSvc) {
     };
 
     function parseJson(jsonData) {
-        var exec = cordova.require('cordova/exec');
-        exec(null,null,"DataPlugin","saveData",[jsonData]);
+
+        if(AppInfoSvc.isBrowser()){
+            saveWord(jsonData);
+        }else {
+            var exec = cordova.require('cordova/exec');
+            exec(null,null,"DataPlugin","saveData",[jsonData]);
+        }
+
+
     }
 
 
@@ -38,11 +45,11 @@ function DataSvc($q,AppInfoSvc) {
         return defer.promise;
     }
 
-    function getWord(){
+    function getWord(word){
         console.log('getWord');
     }
 
-    function saveWord() {
+    function saveWord(data) {
         console.log('saveWord');
     }
 };
